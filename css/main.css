@@ -20,6 +20,10 @@
     height: 600px;
 }
 
+.form-control, .btn{
+    border-radius: 0%;
+}
+
 
 
 
@@ -28,9 +32,15 @@
     .row-header{
         height: 300px;
     }
+
+    .btn-newsletter{
+        margin-top: 5px;
+    }
 }
-@media screen and (max-width:1024px) and (min-width:640px) {
-    /* menores a 1024 y mayores de 640 */
+@media screen and (max-width:1024px) and (min-width:570px) {
+    .btn-newsletter{
+        margin-top: 5px;
+    }
 }
 @media screen and (min-width:1024px) {
     /* Mayores a 1024 */
