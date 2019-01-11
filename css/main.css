@@ -6,3 +6,32 @@
 .navbar .nav-item .nav-link{
     color: #fff;
 }
+
+.main-header{
+    background: url(../img/sneakers_bg.jpg) fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.background-overlay{
+    background: rgba(48, 51, 107, 0.6);
+}
+
+.row-header{
+    height: 600px;
+}
+
+
+
+
+/*-------------------------RESPONSIVE------------------------ */
+@media screen and (max-width:570px) {
+    .row-header{
+        height: 300px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+    /* menores a 1024 y mayores de 640 */
+}
+@media screen and (min-width:1024px) {
+    /* Mayores a 1024 */
+}
