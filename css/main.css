@@ -33,14 +33,9 @@
         height: 300px;
     }
 
-    .btn-newsletter{
-        margin-top: 5px;
-    }
 }
 @media screen and (max-width:1024px) and (min-width:570px) {
-    .btn-newsletter{
-        margin-top: 5px;
-    }
+  
 }
 @media screen and (min-width:1024px) {
     /* Mayores a 1024 */
