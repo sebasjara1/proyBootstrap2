@@ -1,6 +1,6 @@
 .navbar{
+    background: #10ac84;
     box-shadow: 2px 2px 5px #000;
-    opacity: .9;
 }
 
 .navbar .nav-item .nav-link{
@@ -8,16 +8,16 @@
 }
 
 .main-header{
-    background: url(../img/sneakers_bg.jpg) fixed no-repeat 50% 50%;
+    background: url(../img/sneakers_bg.jpg) fixed no-repeat;
     background-size: cover;
 }
 
 .background-overlay{
-    background: rgba(48, 51, 107, 0.6);
+    background: rgba(87, 101, 116,0.6);
 }
 
-.row-header{
-    height: 600px;
+.news{
+    background: #10ac84;
 }
 
 .form-control, .btn{
@@ -31,15 +31,27 @@
 
 
 /*-------------------------RESPONSIVE------------------------ */
-@media screen and (max-width:570px) {
-    .row-header{
-        height: 300px;
-    }
+@media screen and (max-width:576px) {
+   
 
 }
-@media screen and (max-width:1024px) and (min-width:570px) {
-  
+@media screen and (max-width:768px) {
+    .row-header{
+        height: 350px;
+    }
 }
-@media screen and (min-width:1024px) {
-    /* Mayores a 1024 */
+@media screen and (max-width:992px) and (min-width:768px) {
+    .row-header{
+        height: 450px;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .row-header{
+        height: 500px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .row-header{
+        height: 600px;
+    }
 }
