@@ -16,16 +16,36 @@
     background: rgba(87, 101, 116,0.6);
 }
 
-.news{
+#marcas, #questions{
+    background: #f1f1f1;
+}
+
+.card-style-1{
+    background: #01a3a4;
+}
+
+.card-style-2{
+    background: #222f3e;
+}
+
+.card-style-2 hr{
+    background: #ccc;
+}
+
+.news, #about, #team, footer{
     background: #10ac84;
+}
+
+.header-accordion{
+    background: rgba(87, 101, 116,1);
+}
+
+i{
+    color: #01a3a4;
 }
 
 .form-control, .btn{
     border-radius: 0%;
-}
-
-.team, footer{
-    background: #30336b;
 }
 
 
