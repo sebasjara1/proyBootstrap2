@@ -10,7 +10,7 @@
     <title>Bootstrap Website</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="/">
                 <h3 class="text-white text-bolder">JSJ</h3>
@@ -41,10 +41,13 @@
         </div>
     </nav>
     <!-- HEADER -->
-    <header class="main-header">
-        <div class="background-overlay">
-            <div class="container">
-                <div class="row align-items-center row-header">
+    <header class="main-header mt-5">
+        <div class="overlay-video"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="img/sneakers_video.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="row d-flex h-100 align-items-center">
                     <div class="col-md-5 text-center">
                         <h2 class="font-weight-bold mb-4 text-white">Lorem ipsum dolor sit amet consectetur</h2>
                         <p class="lead lead mb-4 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, quidem!</p>
@@ -52,6 +55,7 @@
                     </div>
                     <div class="col-md-7 d-none d-md-block">
                         <div id="slider" class="carousel slide" data-ride="carousel">
+                            <div class="overlay-carousel"></div>
                             <ol class="carousel-indicators bg-dark w-25 rounded mx-auto">
                                 <li data-target="#slider" data-slide-to="0" class="active"></li>
                                 <li data-target="#slider" data-slide-to="1"></li>
@@ -80,9 +84,8 @@
                             </a>
                         </div>
                     </div>
-                </div>
             </div>
-        </div>
+        </div>        
     </header>
     <!-- SUSCRIPCION -->
     <section class="news text-white py-5">
@@ -203,13 +206,13 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5  my-5">
-                    <h1 class="mb-4">¿Por qué este producto?</h1>
+                <div class="col-lg-5 mb-sm-1 my-lg-5">
+                    <h1 class="mb-4 text-center">¿Por qué este producto?</h1>
                     <p class="text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci quibusdam voluptas nihil aliquid nesciunt reprehenderit? Error voluptate fugit cumque maiores sunt saepe suscipit temporibus totam non, eos hic neque perferendis labore ipsa sapiente, facere recusandae unde distinctio molestiae in!
                     </p>                        
                 </div>
-                <div class="col-lg-7  my-5">
+                <div class="col-lg-7 my-lg-5">
                     <img src="img/sneakers_nike.png" class="img-fluid d-inline">
                 </div>
             </div>
@@ -217,8 +220,9 @@
     </section>
     <!-- ACCORDION -->
     <section id="questions" class="text-center">
-        <div class="container">
-            <h1 class="text-center py-4">Preguntas Frecuentes</h1>
+        <div class="overlay">
+            <div class="container">
+            <h1 class="text-center text-white py-5">Preguntas Frecuentes</h1>
             <div class="row">
                 <div class="col-md-8 offset-md-2 mb-5">
                     <div class="accordion" id="accordion">
@@ -266,6 +270,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>

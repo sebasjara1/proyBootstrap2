@@ -7,16 +7,64 @@
     color: #fff;
 }
 
-.main-header{
+#questions{
     background: url(../img/sneakers_bg.jpg) fixed no-repeat;
     background-size: cover;
 }
 
-.background-overlay{
-    background: rgba(87, 101, 116,0.6);
+#questions .overlay{
+    background: rgba(87, 101, 116,0.7);
 }
 
-#marcas, #questions{
+header{
+    position: relative;
+    background-color: black;
+    height: 91vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.overlay-carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+#marcas{
     background: #f1f1f1;
 }
 
@@ -51,27 +99,30 @@ i{
 
 
 /*-------------------------RESPONSIVE------------------------ */
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url(../img/sneakers_mobile.jpg) black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width:576px) {
    
 
 }
 @media screen and (max-width:768px) {
-    .row-header{
-        height: 350px;
-    }
+    
 }
 @media screen and (max-width:992px) and (min-width:768px) {
-    .row-header{
-        height: 450px;
-    }
+    
 }
 @media screen and (max-width:1200px) and (min-width:992px) {
-    .row-header{
-        height: 500px;
-    }
+    
 }
 @media screen and (min-width:1200px) {
-    .row-header{
-        height: 600px;
-    }
+    
 }
