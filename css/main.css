@@ -4,11 +4,11 @@
 }
 
 .navbar .nav-item .nav-link{
-    color: #fff;
+    color: #fff; 
 }
 
 #questions{
-    background: url(../img/sneakers_bg.jpg) fixed no-repeat;
+    background: url(../images/sneakers_bg.jpg) fixed no-repeat;
     background-size: cover;
 }
 
@@ -102,7 +102,7 @@ i{
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url(../img/sneakers_mobile.jpg) black no-repeat center center scroll;
+        background: url(../images/sneakers_mobile.jpg) black no-repeat center center scroll;
     }
     header video {
         display: none;

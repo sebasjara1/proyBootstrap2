@@ -1,3 +1,3 @@
 # proyBootstrap2
 
-Proyecto de practica con Bootstrap
+Proyecto de practica con Bootstrap 
